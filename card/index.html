@@ -1,0 +1,770 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>כרטיס שטח · קפלוניה 20–27 באוגוסט 2026</title>
+<style>
+  /* ===== ערכת נושא: אבן גיר ואורן — זהה לדוח המורחב, סט אחד =====
+     גיר לבן־חמים ברקע · ירוק ים יוני עמוק באקצנט ·
+     אוכרה לאזהרות · אדום־חרס לדחיפות. */
+
+  :root {
+    /* --- שתי ההתאמות לפרסום כעמוד חי: כיוון ורקע יושבים על :root --- */
+    direction: rtl;
+    background: #f7f6f1;
+
+    --bg:         #f7f6f1;
+    --surface:    #eae7dd;
+    --fg:         #1a1c1a;
+    --muted:      #575c54;
+    --rule:       #d8d4c8;
+    --accent:     #0d6157;
+    --accent-2:   #1f3d35;
+    --code-bg:    #efece3;
+    --warn-bg:    #f6efe4;
+    --warn-line:  #9a5a17;
+    --alert-bg:   #f8eeed;
+    --alert-line: #a3231f;
+    --font-body:  "Segoe UI", "Noto Sans Hebrew", "Arial Hebrew", Arial, sans-serif;
+    --font-head:  "Segoe UI Semibold", "Segoe UI", "Noto Sans Hebrew", "Arial Hebrew", Arial, sans-serif;
+    --font-mono:  Consolas, "Courier New", monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      background: #101413;
+      --bg:         #101413;
+      --surface:    #1a201e;
+      --fg:         #e8e6dd;
+      --muted:      #a2a89e;
+      --rule:       #2e3634;
+      --accent:     #55c9b6;
+      --accent-2:   #a9c9bb;
+      --code-bg:    #171d1b;
+      --warn-bg:    #1e1a14;
+      --warn-line:  #d59a4e;
+      --alert-bg:   #221514;
+      --alert-line: #e2726d;
+    }
+  }
+
+  /* --- מתג נושא מפורש: גובר על העדפת המערכת --- */
+  :root[data-theme="light"] {
+    background: #f7f6f1;
+    --bg:         #f7f6f1;
+    --surface:    #eae7dd;
+    --fg:         #1a1c1a;
+    --muted:      #575c54;
+    --rule:       #d8d4c8;
+    --accent:     #0d6157;
+    --accent-2:   #1f3d35;
+    --code-bg:    #efece3;
+    --warn-bg:    #f6efe4;
+    --warn-line:  #9a5a17;
+    --alert-bg:   #f8eeed;
+    --alert-line: #a3231f;
+  }
+  :root[data-theme="dark"] {
+    background: #101413;
+    --bg:         #101413;
+    --surface:    #1a201e;
+    --fg:         #e8e6dd;
+    --muted:      #a2a89e;
+    --rule:       #2e3634;
+    --accent:     #55c9b6;
+    --accent-2:   #a9c9bb;
+    --code-bg:    #171d1b;
+    --warn-bg:    #1e1a14;
+    --warn-line:  #d59a4e;
+    --alert-bg:   #221514;
+    --alert-line: #e2726d;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    padding: 0 1.1rem 3rem;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--font-body);
+    font-size: 1rem;
+    line-height: 1.55;
+    -webkit-text-size-adjust: 100%;
+  }
+  main, .hero-inner { max-width: 46rem; margin: 0 auto; }
+
+  /* ---------- אייקונים ---------- */
+  .ico {
+    width: 1.05em; height: 1.05em;
+    vertical-align: -0.13em;
+    margin-left: 0.4em;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.9;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    flex: 0 0 auto;
+  }
+  .ico-sm { width: 0.95em; height: 0.95em; margin-left: 0.3em; }
+
+  /* ---------- קישוט שוליים ---------- */
+  .band { display: block; width: 100%; height: 11px; color: var(--accent); opacity: .45; }
+  .band-wave { height: 13px; opacity: .38; }
+  .cypress { position: absolute; left: 1.1rem; bottom: 0; width: 34px; height: 62px; color: var(--accent); opacity: .28; }
+
+  /* ---------- כותרת פתיחה ---------- */
+  .hero {
+    position: relative;
+    margin: 0 -1.1rem 1.1rem;
+    padding: 1.9rem 1.1rem 1rem;
+    background: var(--surface);
+    border-bottom: 3px solid var(--accent);
+    overflow: hidden;
+  }
+  .kicker {
+    margin: 0 0 .45rem;
+    font-family: var(--font-head);
+    font-size: .78rem; font-weight: 700;
+    letter-spacing: .07em;
+    color: var(--accent);
+  }
+  .hero h1 {
+    margin: 0 0 .5rem;
+    font-family: var(--font-head);
+    font-size: clamp(1.5rem, 5vw, 2.15rem);
+    line-height: 1.16;
+    letter-spacing: -.015em;
+  }
+  .dek { margin: 0 0 .7rem; font-size: 1rem; line-height: 1.5; color: var(--muted); }
+  .facts { margin: 0; font-size: .92rem; line-height: 1.6; }
+  .facts b { color: var(--accent-2); }
+
+  /* ---------- תיבת הקישור הגדולה ---------- */
+  .urlbox {
+    margin: 1rem 0 1.3rem;
+    padding: .85rem 1rem;
+    background: var(--surface);
+    border: 2px solid var(--accent);
+    border-radius: 10px;
+    text-align: center;
+  }
+  .urlbox .lbl {
+    margin: 0 0 .25rem;
+    font-family: var(--font-head);
+    font-size: .82rem; font-weight: 700;
+    letter-spacing: .06em;
+    color: var(--accent);
+  }
+  .urlbox .url {
+    display: block;
+    direction: ltr; unicode-bidi: embed;
+    font-family: var(--font-mono);
+    font-size: clamp(.82rem, 2.9vw, 1.02rem);
+    font-weight: 700;
+    word-break: break-all;
+    color: var(--fg);
+    margin: 0 0 .35rem;
+  }
+  .urlbox .note { margin: 0; font-size: .84rem; color: var(--muted); line-height: 1.45; }
+
+  /* ---------- מבנה עמודים ---------- */
+  .sheet { position: relative; padding-top: .2rem; }
+  .sheet + .sheet { margin-top: 2.2rem; border-top: 1px solid var(--rule); padding-top: 1.4rem; }
+
+  h2 {
+    display: flex; align-items: center;
+    font-family: var(--font-head);
+    font-size: 1.28rem; line-height: 1.3;
+    margin: 1.4rem 0 .55rem;
+    padding-bottom: .3rem;
+    border-bottom: 2px solid var(--accent);
+    color: var(--accent-2);
+  }
+  .sheet > h2:first-child { margin-top: .2rem; }
+  h3 {
+    font-family: var(--font-head);
+    font-size: 1.02rem; line-height: 1.35;
+    margin: 1.05rem 0 .35rem;
+    color: var(--accent-2);
+  }
+  p { margin: 0 0 .6rem; }
+  ul, ol { margin: 0 0 .7rem; padding-right: 1.25rem; }
+  li { margin-bottom: .3rem; }
+  strong { font-weight: 700; }
+
+  .lead { font-size: 1.02rem; }
+  .muted { color: var(--muted); }
+  .small { font-size: .88rem; line-height: 1.5; }
+
+  /* ---------- כרטיסים ---------- */
+  .card {
+    background: var(--surface);
+    border-radius: 8px;
+    padding: .7rem .85rem;
+    margin: 0 0 .8rem;
+  }
+  .card > :last-child { margin-bottom: 0; }
+  .card-warn { background: var(--warn-bg); border-right: 3px solid var(--warn-line); }
+  .card-alert { background: var(--alert-bg); border-right: 3px solid var(--alert-line); }
+  .card h3 { margin-top: 0; }
+
+  /* ---------- יום במסלול ---------- */
+  .day {
+    margin: 0 0 .62rem;
+    padding: 0 0 .55rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  .day:last-of-type { border-bottom: 0; }
+  .day h3 {
+    margin: 0 0 .2rem;
+    display: flex; align-items: baseline; gap: .45rem;
+    font-size: 1rem;
+  }
+  .day h3 .num {
+    font-family: var(--font-mono);
+    font-size: .8rem;
+    color: var(--accent);
+    border: 1px solid var(--accent);
+    border-radius: 4px;
+    padding: 0 .3em;
+  }
+  .day p { margin: 0; font-size: .95rem; line-height: 1.5; }
+  .daymeta { font-size: .84rem; color: var(--muted); }
+
+  /* ---------- טבלאות ---------- */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 0 .85rem;
+    font-size: .9rem;
+    line-height: 1.42;
+  }
+  .scroll { overflow-x: auto; }
+  th, td { border: 1px solid var(--rule); padding: .3rem .45rem; text-align: right; vertical-align: top; }
+  th { background: var(--code-bg); font-family: var(--font-head); font-weight: 700; color: var(--accent-2); }
+  td.tel { direction: ltr; unicode-bidi: embed; text-align: right; font-family: var(--font-mono); font-size: .86em; white-space: nowrap; }
+
+  .tel-inline { direction: ltr; unicode-bidi: embed; font-family: var(--font-mono); font-size: .92em; white-space: nowrap; }
+
+  /* ---------- סימונים ---------- */
+  .w  { color: var(--warn-line); font-weight: 700; }
+  .a  { color: var(--alert-line); font-weight: 700; }
+  .ok { color: var(--accent); font-weight: 700; }
+  .stat {
+    font-family: var(--font-head); font-weight: 700;
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ---------- כותרת תחתונה לכל עמוד ---------- */
+  .sheetfoot {
+    margin: .9rem 0 0;
+    padding-top: .35rem;
+    border-top: 1px solid var(--rule);
+    font-size: .74rem;
+    line-height: 1.4;
+    color: var(--muted);
+    display: flex;
+    justify-content: space-between;
+    gap: .6rem;
+    flex-wrap: wrap;
+  }
+  .sheetfoot .u { direction: ltr; unicode-bidi: embed; font-family: var(--font-mono); }
+
+  hr { border: 0; height: 1px; background: var(--rule); margin: 1.4rem auto; width: 45%; }
+
+  /* ===================== הדפסה / PDF ===================== */
+  @media print {
+    @page { size: A4; margin: 12mm; }
+
+    :root,
+    :root[data-theme="light"],
+    :root[data-theme="dark"] {
+      background: #ffffff;
+      --bg:         #ffffff;
+      --surface:    #f4f3ee;
+      --fg:         #000000;
+      --muted:      #3a3a38;
+      --rule:       #9a9a94;
+      --accent:     #08423b;
+      --accent-2:   #14261f;
+      --code-bg:    #eeece5;
+      --warn-bg:    #faf5ec;
+      --warn-line:  #6b3d0d;
+      --alert-bg:   #fbf1f0;
+      --alert-line: #7d1a17;
+    }
+
+    body {
+      padding: 0;
+      font-size: 8.6pt;
+      line-height: 1.4;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    main, .hero-inner { max-width: none; }
+
+    .hero { margin: 0 0 .5rem; padding: 0 0 .45rem; background: none; border-bottom: 2.5pt solid var(--accent); }
+    .hero h1 { font-size: 17pt; margin-bottom: .18rem; }
+    .kicker { font-size: 7.4pt; margin-bottom: .2rem; }
+    .dek { font-size: 8.6pt; margin-bottom: .3rem; }
+    .facts { font-size: 8.4pt; line-height: 1.45; }
+    .cypress { display: none; }
+
+    .urlbox { margin: .45rem 0 .6rem; padding: .4rem .5rem; border-width: 1.6pt; }
+    .urlbox .lbl { font-size: 7.6pt; margin-bottom: .1rem; }
+    .urlbox .url { font-size: 11.5pt; margin-bottom: .12rem; }
+    .urlbox .note { font-size: 7.8pt; }
+
+    /* חלוקת העמודים — מכוונת, לא מקרית */
+    .sheet { break-before: page; page-break-before: always; padding-top: 0; }
+    .sheet:first-of-type { break-before: auto; page-break-before: auto; }
+    .sheet + .sheet { margin-top: 0; border-top: 0; padding-top: 0; }
+
+    h2 { font-size: 11.5pt; margin: .5rem 0 .28rem; padding-bottom: .12rem; border-bottom-width: 1.4pt; break-after: avoid; page-break-after: avoid; }
+    .sheet > h2:first-child { margin-top: 0; }
+    h3 { font-size: 9.1pt; margin: .42rem 0 .14rem; break-after: avoid; page-break-after: avoid; }
+    p { margin-bottom: .28rem; }
+    ul, ol { margin-bottom: .3rem; padding-right: 1rem; }
+    li { margin-bottom: .13rem; }
+
+    .card { padding: .32rem .45rem; margin-bottom: .35rem; border-radius: 4px; }
+    .card-warn, .card-alert { border-right-width: 2pt; }
+
+    .day { margin-bottom: .28rem; padding-bottom: .24rem; }
+    .day h3 { font-size: 9.1pt; }
+    .day p { font-size: 8.4pt; line-height: 1.38; }
+    .daymeta { font-size: 7.8pt; }
+
+    table { font-size: 7.5pt; line-height: 1.32; margin-bottom: .35rem; }
+    th, td { padding: .14rem .28rem; }
+    .scroll { overflow: visible; }
+    td.tel { font-size: 7.3pt; }
+
+    .band { height: 7px; opacity: .5; }
+    .band-wave { height: 8px; }
+
+    .sheetfoot { margin-top: .4rem; font-size: 6.8pt; padding-top: .18rem; }
+
+    /* עמוד 1 עמוס מטבעו — מעט צפוף יותר, כדי שלא יגלוש לעמוד חמישי */
+    #sheet-1 ol, #sheet-1 ul, #sheet-1 table, #sheet-1 .card { font-size: 8pt; }
+    #sheet-1 li { margin-bottom: .1rem; }
+    #sheet-1 .card .small { font-size: 7.8pt; }
+
+    /* שום כרטיס, טבלה או יום לא נשבר באמצע */
+    table, .card, .day, .urlbox, tr, li, h2, h3 {
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+    hr { display: none; }
+  }
+  /* links added post-write: colour inherited so the verified
+     contrast ratios of the palette are preserved unchanged. */
+  a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+  a.tel { white-space: nowrap; text-decoration-style: dotted; }
+  @media print {
+    a { text-decoration: none; }
+  }
+
+  /* ===== התאמת התאמה לארבעה עמודים — נוספה על ידי ראובן אחרי מדידה =====
+     אחרי סבב החיתוך של יעל סך התוכן היה 3.93 עמודים, כלומר הוא כן נכנס
+     בארבעה — אבל גיליון 2 חרג ב-7px וגיליון 4 ב-32px, ולכן שניהם גלשו
+     לעמוד נוסף והתוצאה הייתה שישה עמודים.
+
+     הכלל הזה מקצר מרווחים אנכיים בלבד. הוא לא נוגע בגודל הגופן ולא
+     בגובה השורה — כרטיס שטח נקרא בשמש, וקריאוּת גוברת על צפיפות.
+     המרווח שנוצר: 80px, 25px, 174px, 26px בארבעת הגיליונות.
+     ============================================================ */
+  @media print {
+    .sheet > *           { margin-bottom: 2.4px; }
+    .sheet .day          { margin-bottom: 2px; }
+    .sheet td,
+    .sheet th            { padding-top: 0.6px; padding-bottom: 0.6px; }
+    .sheet .card         { padding-top: 3.5px; padding-bottom: 3.5px; }
+    .sheet li            { margin-bottom: 0.4px; }
+  }
+
+</style>
+</head>
+<body>
+<style>
+  /* בלוק ההורדה קיים רק בגרסת העמוד החי. הקובץ ב-Output נשאר מסמך שלם בלי תוספות הפצה. */
+  .dl-pdf {
+    max-width: 52rem;
+    margin: 1rem auto 0;
+    padding: 0.8rem 1rem;
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 1rem;
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+  }
+  .dl-pdf b { color: var(--fg); }
+  .dl-pdf span { color: var(--muted); font-size: 0.88em; }
+  .dl-pdf a.btn {
+    color: var(--bg);
+    background: var(--accent);
+    text-decoration: none;
+    padding: 0.45rem 0.9rem;
+    border-radius: 6px;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .dl-pdf a.btn:hover, .dl-pdf a.btn:focus-visible { background: var(--accent-2); }
+  @media print { .dl-pdf { display: none; } }
+</style>
+<div class="dl-pdf">
+  <b>ארבעה עמודים להדפסה</b>
+  <span>A4 · מיועד להיות מודפס ומקופל, או מצולם לוואטסאפ</span>
+  <a class="btn" href="2026-08-17-kefalonia-field-card.pdf" download>הורדת ה-PDF</a>
+</div>
+
+
+<!-- ===== ספריית אייקונים: SVG inline, אפס תלות ברשת ===== -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-clock" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="9"/><path d="M12 6.8V12l3.6 2.1"/>
+    </symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24">
+      <path d="M6.4 3h3l1.5 4-2 1.4a12.4 12.4 0 0 0 6.1 6.1L16.4 12.5l4 1.5v3a2 2 0 0 1-2.2 2A16.6 16.6 0 0 1 4.4 5.2 2 2 0 0 1 6.4 3z"/>
+    </symbol>
+    <symbol id="i-car" viewBox="0 0 24 24">
+      <path d="M3 16.5v-3.2l1.9-4.9A2 2 0 0 1 6.8 7h10.4a2 2 0 0 1 1.9 1.4l1.9 4.9v3.2"/>
+      <path d="M3 16.5h18"/>
+      <circle cx="7.4" cy="17" r="1.5"/><circle cx="16.6" cy="17" r="1.5"/>
+    </symbol>
+    <symbol id="i-sunset" viewBox="0 0 24 24">
+      <path d="M2.5 18.5h19"/><path d="M12 3.2v3.6"/>
+      <path d="M5.3 6.3 7.1 8.1"/><path d="M18.7 6.3 16.9 8.1"/>
+      <path d="M3.4 13.2h1.9"/><path d="M18.7 13.2h1.9"/>
+      <path d="M6.9 15.6a5.1 5.1 0 0 1 10.2 0"/>
+    </symbol>
+    <symbol id="i-wave" viewBox="0 0 24 24">
+      <path d="M2 9.5c2.4 0 2.4-2.8 4.9-2.8s2.5 2.8 5 2.8 2.5-2.8 5-2.8S19.5 9.5 22 9.5"/>
+      <path d="M2 14c2.4 0 2.4-2.8 4.9-2.8s2.5 2.8 5 2.8 2.5-2.8 5-2.8S19.5 14 22 14"/>
+      <path d="M2 18.5c2.4 0 2.4-2.8 4.9-2.8s2.5 2.8 5 2.8 2.5-2.8 5-2.8S19.5 18.5 22 18.5"/>
+    </symbol>
+    <symbol id="i-umbrella" viewBox="0 0 24 24">
+      <path d="M2.8 12.2a9.2 9.2 0 0 1 18.4 0z"/>
+      <path d="M12 12.2V19a2.1 2.1 0 0 0 4.2 0"/>
+      <path d="M12 2.6v1.4"/>
+    </symbol>
+    <symbol id="i-fork" viewBox="0 0 24 24">
+      <path d="M6.2 3v4.6a2.3 2.3 0 0 0 4.6 0V3"/><path d="M8.5 9.9V21"/>
+      <path d="M16.6 3c1.9 1.9 1.9 6.2 0 8.1V21"/>
+    </symbol>
+    <symbol id="i-warn" viewBox="0 0 24 24">
+      <path d="M12 3.6 21.6 20.4H2.4z"/><path d="M12 9.6v4.6"/><path d="M12 17.3v.2"/>
+    </symbol>
+
+    <!-- מוטיב מניאנדר יווני, מרוצף -->
+    <pattern id="meander" width="20" height="12" patternUnits="userSpaceOnUse">
+      <path d="M1 11.2V1.2h17.6v8H5.6v-4h9.2" fill="none" stroke="currentColor" stroke-width="1.5"/>
+    </pattern>
+    <!-- קו גלים, מרוצף -->
+    <pattern id="wavepat" width="24" height="12" patternUnits="userSpaceOnUse">
+      <path d="M0 8c3 0 3-4 6-4s3 4 6 4 3-4 6-4 3 4 6 4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    </pattern>
+  </defs>
+</svg>
+
+<!-- =============================== עמוד 1 =============================== -->
+<main>
+<section class="sheet" id="sheet-1">
+
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="kicker">כרטיס שטח · לצילום ולשליחה בוואטסאפ</p>
+      <h1>קפלוניה, 20–27 באוגוסט 2026</h1>
+      <p class="dek">ארבעה עמודים למה שצריך להיות ביד כשעומדים בחניה ומחליטים. התיק המלא חי בכתובת שלמטה.</p>
+      <p class="facts">
+        <b>משפחת שדה</b> · 4 נוסעים (15, 15, 49, 50) · 8 ימים, 7 לילות<br>
+        <b>נחיתה:</b> חמישי 20/8 · <b>חזרה:</b> חמישי 27/8 · טיסה ישירה TLV–EFL
+        <span class="w">⚠</span> אם לא מוצאים במערכות תחת "אל על" — לחפש תחת "Sun d'Or"
+      </p>
+    </div>
+    <svg class="cypress" viewBox="0 0 34 62" aria-hidden="true" focusable="false">
+      <path d="M13 60c-3.4 0-5.6-3.2-5.6-9.4C7.4 38 10 22 13 4c3 18 5.6 34 5.6 46.6C18.6 56.8 16.4 60 13 60z" fill="currentColor" stroke="none"/>
+      <path d="M13 60v2" stroke="currentColor" stroke-width="2" fill="none"/>
+      <path d="M27 61c-2.1 0-3.5-2-3.5-5.9 0-7.9 1.6-17.9 3.5-29.2 1.9 11.3 3.5 21.3 3.5 29.2 0 3.9-1.4 5.9-3.5 5.9z" fill="currentColor" stroke="none" opacity=".7"/>
+    </svg>
+  </header>
+
+  <svg class="band" viewBox="0 0 240 12" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+    <rect width="240" height="12" fill="url(#meander)"/>
+  </svg>
+
+  <div class="urlbox">
+    <p class="lbl">הדוח המורחב, 69 עמודים</p>
+    <span class="url"><a href="https://shlomiblue-claude.github.io/kefalonia-family-report/" rel="noopener noreferrer">https://shlomiblue-claude.github.io/kefalonia-family-report/</a></span>
+    <p class="note"><strong>כל מה שלא נכנס לארבעת העמודים האלה נמצא שם</strong> — ההסברים, החלופות, המקורות ורשימת הסתירות המלאה.</p>
+  </div>
+
+  <h2><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg>מה לסגור לפני היציאה</h2>
+
+  <ol>
+    <li><strong>רישיון נהיגה בינלאומי (IDP) — הפריט הדחוף ביותר.</strong> הרישיון הישראלי אינו כתוב באותיות לטיניות, וחברות ההשכרה ביוון דורשות IDP לצד הרישיון הלאומי. <strong>בלי IDP — אין רכב.</strong> <span class="w">⚠</span> נוהל ההנפקה בישראל לא אומת.</li>
+    <li><strong>רכב שכור.</strong> <span class="w">⚠</span> <span class="stat">€50–€90</span> ליום בשיא אוגוסט. לבדוק שלושה מתווכים במקביל ולסגור עם ביטול חינם. <strong>לוודא שהביטוח מכסה תקרי צמיגים ונזק לתחתית</strong> — פוליסות "all-risk" יווניות לא תמיד מכסות, וזה בדיוק סוג הנזק כאן.</li>
+    <li><strong>שולחן בפיסקרדו — תנאי, לא המלצה.</strong> Tassia <span class="tel-inline"><a class="tel" href="tel:+302674041110">+30 26740 41110</a></span> · Vasso's <span class="tel-inline"><a class="tel" href="tel:+302674041276">+30 2674 041276</a></span>.</li>
+    <li><strong>סדנת בישול, אם רוצים.</strong> Kefalonia Tours <span class="tel-inline"><a class="tel" href="tel:+306974343948">+30 6974343948</a></span>. הזמנה חובה מראש.</li>
+    <li><strong>מרק kakavia — להזמין את המנה, לא רק שולחן.</strong> I Kalyva Tou Psara <span class="tel-inline"><a class="tel" href="tel:+302671085105">+30 2671085105</a></span>.</li>
+    <li><strong>שיחה אחת לשגרירות מהארץ, לוודא שהמספר עונה.</strong> <span class="w">⚠</span> <span class="tel-inline">+30-210-670-5500</span>.</li>
+    <li><strong>גילאים לפעילויות — שלוש שיחות סוגרות את רוב הפערים.</strong> <span class="w">⚠</span> Outdoor Kefalonia <span class="tel-inline"><a class="tel" href="tel:+306979987611">+30 6979987611</a></span> · Extreme Watersports <span class="tel-inline"><a class="tel" href="tel:+306973165715">+30 697 3165 715</a></span> · Blue Manta <span class="tel-inline"><a class="tel" href="tel:+306981449295">+30 6981449295</a></span>.</li>
+    <li><strong>להוריד מפות אופליין ל-Google Maps.</strong> ה-GPS באי מפנה לדרכי עפר והקליטה נחלשת בהרים. פריט בטיחות, לא נוחות.</li>
+  </ol>
+
+  <div class="card card-alert">
+    <h3>מה לוקחים מהארץ</h3>
+    <p><strong>נעלי ים לארבעתכם.</strong> זה ציוד, לא המלצה. קיפודי הים הם החיה המסוכנת ביותר במים של קפלוניה, הם חיים בקרקעית סלעית, <strong>ודריכה עליהם דורשת ברוב המקרים טיפול רפואי.</strong> אנטיסאמוס, אמבליסי ומירטוס הם חלוקים וסלע.</p>
+    <p class="small"><strong>כובעים וקרם הגנה</strong> (UV 9, "גבוה מאוד", 12 שעות שמש ביום) · <strong>מזומן <span class="stat">€50–€100</span> בשטרות קטנים</strong> — מסופון לא תמיד עובד בפאניגירי ובטברנות הכפריות · <strong>ביטוח נסיעות שכולל פינוי רפואי.</strong></p>
+  </div>
+
+  <h2><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg>חירום</h2>
+
+  <table>
+    <thead><tr><th style="width:34%">שירות</th><th style="width:18%">מספר</th><th>פרטים</th></tr></thead>
+    <tbody>
+      <tr><td><strong>חירום כללי (אירופי)</strong></td><td class="tel"><strong>112</strong></td><td>המספר לזכור</td></tr>
+      <tr><td><strong>אמבולנס / עזרה ראשונה</strong></td><td class="tel"><strong>166</strong></td><td>EKAB</td></tr>
+      <tr><td>משטרה</td><td class="tel">100</td><td></td></tr>
+      <tr><td>כיבוי אש</td><td class="tel">199</td><td></td></tr>
+      <tr>
+        <td colspan="2"><strong>בית החולים הכללי "אגיוס גרסימוס"</strong><br><span class="small muted">Souidias Street 17, ארגוסטולי 28100 · פועל 24/7</span></td>
+        <td>קו ראשי <span class="tel-inline"><a class="tel" href="tel:+302671361100">+30 26713 61100</a></span><br>עזרה ראשונה <span class="tel-inline"><a class="tel" href="tel:+302671361163">+30 26713 61163</a></span><br><span class="small muted">קיים גם מרכז בריאות בסאמי</span></td>
+      </tr>
+      <tr>
+        <td colspan="2"><strong>שגרירות ישראל, אתונה</strong> <span class="w">⚠</span><br><span class="small muted">המספרים לא נפתחו מהאתר הרשמי. אין קונסוליה באיים היוניים</span></td>
+        <td>מרכזייה <span class="tel-inline">+30-210-670-5500</span><br>ואטסאפ חירום <span class="tel-inline">+30-694-427-1668</span><br><strong>חדר מצב, ירושלים <span class="tel-inline">+972-2-530-3155</span></strong> — קו הגיבוי, מספר ישראלי</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-car"/></svg>מעשי — רכב, כסף, שעות</h2>
+
+  <ul class="small">
+    <li><strong>דלק:</strong> בנזין 95 — <span class="stat">€2.02</span> לליטר (הנחה ממשלתית בתוקף עד 31/8). כ-€36–€57 לשבוע. <strong>לא לרדת מתחת לחצי מיכל לפני נסיעה צפונה.</strong></li>
+    <li><strong>מונית משדה התעופה לארגוסטולי:</strong> כ-€20 ביום, €25 בלילה. <span class="w">⚠</span> <strong>התעריפים אינם מפוקחים — לסכם מחיר לפני שנכנסים לרכב.</strong></li>
+    <li><strong>כבישים:</strong> סלולים ותקינים, אבל הרריים ומפותלים ובמקומות בלי מעקה — זמני נסיעה ארוכים מהצפוי. <strong>מי הברז בטוחים לשתייה</strong>, וכספומטים יש בערים ובשדה התעופה.</li>
+    <li><strong>מעבורת ארגוסטולי↔ליקסורי:</strong> <span class="stat">€3.50</span> לנוסע, €7 לרכב עם נהג, כרטיסים על הסיפון. <strong>אחרונה מליקסורי 00:30, מארגוסטולי 01:00</strong> — כל ימות השבוע.</li>
+  </ul>
+
+  <div class="card card-warn">
+    <h3><svg class="ico ico-sm" aria-hidden="true" focusable="false"><use href="#i-sunset"/></svg>חום ואור — הכלל שמעצב את כל השבוע</h3>
+    <p class="small"><strong><span class="stat">31–34</span> מעלות כל השבוע, בלי גשם, לילות 23–25.</strong> הים ב-26 מעלות מרכך, אבל <strong>מיזוג בלינה הוא הכרח.</strong> <span class="w">⚠</span> ליום ראשון 23/8 שתי תחזיות סותרות — <strong>31 או 37. תכננו אותו כיום החם.</strong></p>
+    <p class="small"><strong>כלל היום: פעילות בחוץ לפני 11:00 ואחרי 17:00. בין 12:00 ל-17:00 — בים, במערה או בפנים.</strong> שקיעה 20:29 בתחילת השבוע ו-20:19 בסופו, שעת הזהב מ-19:40.</p>
+  </div>
+
+  <p class="sheetfoot">
+    <span>עמוד 1 מתוך 4 · <span class="w">⚠</span> = דורש אימות טלפוני</span>
+    <span class="u"><a href="https://shlomiblue-claude.github.io/kefalonia-family-report/" rel="noopener noreferrer">https://shlomiblue-claude.github.io/kefalonia-family-report/</a></span>
+  </p>
+</section>
+
+<!-- =============================== עמוד 2 =============================== -->
+<section class="sheet" id="sheet-2">
+
+  <h2><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-sunset"/></svg>המסלול, שמונה ימים</h2>
+
+  <svg class="band band-wave" viewBox="0 0 240 12" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+    <rect width="240" height="12" fill="url(#wavepat)"/>
+  </svg>
+
+  <div class="day">
+    <h3><span class="num">1</span> חמישי 20/8 — נחיתה, רדיוס קצר</h3>
+    <p class="daymeta">שתי אוניות קרוז בארגוסטולי · 34°</p>
+    <p><strong>העיר עמוסה עד 18:00.</strong> חוף קרוב לבסיס: <strong>גראדאקיה</strong> או <strong>אביתוס</strong> — בלאסי החניה מתמלאת מהר, והכי גרוע בימי קרוז. ערב: <strong>ליתוסטרוטו</strong> אחרי שהאוניות עוזבות. <span class="w">⚠</span> תיאטרון צלליות בקליגאטה, 21:00 — שני חילוצים מאותה תוכנית עירונית נותנים 19/8 ו-20/8. לוודא בקבלה.</p>
+  </div>
+
+  <div class="day">
+    <h3><span class="num">2</span> שישי 21/8 — מליסאני, ביום הכי שקט בשבוע</h3>
+    <p class="daymeta">684 נוסעי קרוז — היום הקל בשבוע בפער עצום · 33°</p>
+    <p><strong>מליסאני סביב 12:00–13:30</strong> — חלון האור הכחול הוא 11:00–14:00, והתור בשיא העונה 10–40 דקות ובימי קרוז מעל שעה. <strong>דרוגראטי חמש דקות משם</strong>: מערה יבשה, קרירה, בלי תלות באור — בדיוק לשעה החמה. <strong>אנטיסאמוס מ-16:30.</strong> הכול ברדיוס עשר דקות. אופציה נוספת: <strong>ולאכטה הישנה</strong>, כפר רפאים מרעידת האדמה של 1953, חינם ובלי שער.</p>
+  </div>
+
+  <div class="day">
+    <h3><span class="num">3</span> שבת 22/8 — שוק בבוקר, פאניגירי בערב</h3>
+    <p class="daymeta">3,096 נוסעי קרוז · 34° · השבת היחידה שלכם באי</p>
+    <p><strong>בוקר בארגוסטולי:</strong> שוק הירקות ברחוב Antoni Tritsi, שוק הדגים Rassias (Antoni Tritsi 10, שבת 07:00–15:00, מתעורר ב-11:00), ו<strong>צבי ים בנמל בין 08:00 ל-11:00</strong> — חינם, לצפות ממרחק, מין מוגן. אחר הצהריים: <strong>קטבותרס</strong>, 3 ק"מ מהעיר. <strong>הערב: פסטיבל יין הרובולה, אומלה/פרנגטה, מ-20:30, כניסה חופשית</strong> — הפאניגירי הגדול באי, יין חינם מהקואופרטיב, אוכל ותזמורות. <strong>צריך נהג תורן.</strong> <span class="w">⚠</span> מקור אחד מציב את הפסטיבל בתאריך אחר — לאמת בקבלה.</p>
+  </div>
+
+  <div class="day">
+    <h3><span class="num">4</span> ראשון 23/8 — היום החם. ים, ורק ים</h3>
+    <p class="daymeta">2,534 נוסעי קרוז · <span class="w">⚠</span> 31° או 37°, שתי תחזיות, בלי הכרעה — תכננו לפי 37</p>
+    <p><strong>שום דבר על אספלט בין 12:00 ל-17:00.</strong> חוף מוגן מרוח: אנטיסאמוס, אמבליסי או אגיה אפימיה. חלופת מקלט מהחום: דרוגראטי. <span class="w">⚠</span> המוזיאון הקורגיאלניוס סגור בראשון, וקואופרטיב הרובולה עשוי להיות סגור. <strong>הערב:</strong> "אנטיגונה" במבצר אגיוס גאורגיוס, 21:00 (<span class="w">⚠</span> ההצגה ביוונית), או הלילה השני של פסטיבל הרובולה.</p>
+  </div>
+
+  <div class="day">
+    <h3><span class="num">5</span> שני 24/8 — היום הכי עמוס באי</h3>
+    <p class="daymeta">כ-4,826 נוסעי קרוז משתי אוניות · 33°</p>
+    <p><strong>לא יום לארגוסטולי ולא למליסאני.</strong> שתי אפשרויות: <strong>יום סירה עצמאית</strong> (ראו טבלת הפעילויות — הורה ליד ההגה), או <strong>הצפון סביב פיסקרדו</strong> עם אמבליסי, פוקי ואלאטיס. <span class="w">⚠</span> <strong>מבצר אגיוס גאורגיוס — לפי מקור אחד סגור היום.</strong> הערב: <strong>"קרבות אבטיחים ומרוצי שקים", פולאטה, 19:00</strong> — אירוע כפרי אמיתי, <span class="w">⚠</span> לא ברור אם זרים משתתפים או רק צופים; או <strong>סרנדה של מקהלת גברים במרכז ליקסורי, 21:00</strong> — המעבורת האחרונה חזרה ב-00:30, יש מרווח.</p>
+  </div>
+
+  <div class="day">
+    <h3><span class="num">6</span> שלישי 25/8 — סדנת בישול, ואחר צהריים חופשי</h3>
+    <p class="daymeta">2,826 נוסעי קרוז · 33°</p>
+    <p><strong>סדנת מזה בחוות צבר, Kefalonia Tours — 11:00, <span class="stat">€99</span> לאדם, 2–3 שעות, הסעה כלולה.</strong> ארבע המנות צמחוניות: riganada, tzatziki, spanakopita, halva. <span class="w">⚠</span> <strong>לשאול מה מציעים לבני 15</strong> — המשקאות הכלולים הם למבוגרים. אחר הצהריים: <strong>קסי</strong> (מסכת בוץ טבעית מהחימר האפור, כניסה רדודה) או <strong>פוקי</strong> בצפון. <span class="w">⚠</span> <strong>מבצר אגיוס גאורגיוס — לפי מקור אחר סגור דווקא היום.</strong></p>
+  </div>
+
+  <div class="day">
+    <h3><span class="num">7</span> רביעי 26/8 — אסוס, מירטוס, והיום הכי מצולם</h3>
+    <p class="daymeta">2,060 נוסעי קרוז · 32° · היום שבנוי בדיוק סביב "לא קמים מוקדם"</p>
+    <p><strong>~17:00 תצפית מירטוס מדיווארטה</strong> — הזווית המפורסמת, ומחוץ לאזור הסיכון לחלוטין. <strong>~18:00 אסוס</strong>: חניון קטן בכניסה לכפר, <strong>העלייה לטירה חינם, 20–60 דקות לכיוון</strong>, <span class="w">⚠</span> <strong>השביל לא מוצל בכלל ואין מים למעלה.</strong> <strong>~20:20 שקיעה מהשביל</strong> — הנקודה המצולמת ביותר באי. ארוחה בכיכר Paris (Platanos <span class="tel-inline"><a class="tel" href="tel:+302674051381">+30 2674051381</a></span>). מי שרוצה גם לשחות: <strong>פטאני</strong> במקום מירטוס — "מירטוס בלי הקהל", ואחת מנקודות השקיעה הטובות באי.</p>
+  </div>
+
+  <div class="day">
+    <h3><span class="num">8</span> חמישי 27/8 — יציאה</h3>
+    <p class="daymeta">1,960 נוסעי קרוז · 32° · שקיעה 20:19</p>
+    <p><span class="w">⚠</span> <strong>שעת הטיסה לא נמסרה, ולכן היום הזה לא מתוכנן.</strong> קרוב לשדה ולעיר: <strong>קטבותרס ומגדלור Agioi Theodoroi</strong> (3 ק"מ, אפשר לשחות), <strong>לגונת קוטאבוס וגשר דה בוסה</strong> (צבים), <strong>גראדאקיה או פלאטיס יאלוס</strong>.</p>
+  </div>
+
+  <div class="card card-warn">
+    <h3>מה סגור, ומתי</h3>
+    <ul class="small">
+      <li><strong>המוזיאון הארכיאולוגי של ארגוסטולי — סגור לצמיתות.</strong> נהרס ברעידת האדמה של 2014, אין תאריך פתיחה. <strong>אל תתכננו אותו.</strong></li>
+      <li><strong>מבצר אגיוס גאורגיוס — סגור יום אחד בשבוע, ו<span class="a">⚠ יש על זה סתירה: מקור אחד אומר שני (24/8), מקור אחר אומר שלישי (25/8).</span></strong> €3, <span class="w">⚠</span> סוגר ב-15:00 או 15:30. טלפון לאימות <span class="w">⚠</span> <span class="tel-inline">2671 027 546</span>. <strong>טעות כאן שולחת אתכם לדלת נעולה.</strong></li>
+      <li><strong>מוזיאון קורגיאלניוס</strong> — <span class="w">⚠</span> שני–שבת 09:00–14:00. <strong>סגור בראשון 23/8.</strong></li>
+      <li><strong>טירת אסוס</strong> — כניסה <strong>חינם</strong>, <span class="w">⚠</span> סתירה בשעות (24/7 מול 09:00–17:00).</li>
+      <li><strong>המערות, החופים והכפרים — בלי יום סגירה.</strong> אין חג שסוגר משהו בין 20 ל-27/8.</li>
+      <li><strong>מנזר אגיוס גרסימוס</strong> — קוד לבוש צנוע, כתפיים וברכיים מכוסות, גם לתאומים.</li>
+    </ul>
+  </div>
+
+  <p class="sheetfoot">
+    <span>עמוד 2 מתוך 4 · <span class="w">⚠</span> = דורש אימות טלפוני</span>
+    <span class="u"><a href="https://shlomiblue-claude.github.io/kefalonia-family-report/" rel="noopener noreferrer">https://shlomiblue-claude.github.io/kefalonia-family-report/</a></span>
+  </p>
+</section>
+
+<!-- =============================== עמוד 3 =============================== -->
+<section class="sheet" id="sheet-3">
+
+  <h2><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-umbrella"/></svg>חופים</h2>
+
+  <p class="small"><strong>הכלל שקובע הכול: המערב חשוף לרוח שמתחזקת אחר הצהריים, המזרח מוגן.</strong> ים גס במירטוס או בפטאני — עוברים לצד השני של האי. המרחקים מארגוסטולי.</p>
+
+  <div class="scroll">
+  <table>
+    <thead><tr><th>חוף</th><th>מרחק</th><th>סוג</th><th>חניה</th><th>הצללה</th><th>הערה</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>מירטוס</strong></td><td>30 ק"מ</td><td>חלוקים לבנים</td><td>חינם, מתמלאת עד 10:30</td><td>אין</td>
+        <td><span class="a">⚠ אזורים אדומים מגודרים אחרי מפולת הסלעים ב-10/7. לא לשבת בבסיס המצוק, לכבד גידור ושילוט.</span> קרקעית צונחת חד, זרמים בלי התראה. להגיע אחרי 16:00</td>
+      </tr>
+      <tr><td><strong>אנטיסאמוס</strong></td><td>30 ק"מ</td><td>חלוקים</td><td>חינם ומרווח</td><td>אין</td><td>מוגן מרוח, מציל, דגל כחול. מ-16:30</td></tr>
+      <tr><td><strong>אמבליסי</strong></td><td>2 ק"מ מפיסקרדו</td><td>חלוקים + מדפי סלע</td><td>מגרש קטן, מתמלא</td><td>אין</td><td>מהטובים באי לשנורקלינג, מוגן מרוח. <span class="w">⚠</span> סתירה על מתקנים — להביא מים</td></tr>
+      <tr><td><strong>פוקי</strong></td><td>2 ק"מ מפיסקרדו</td><td>חלוקים</td><td>רחוב, מוגבל מאוד</td><td><strong>הטובה באי</strong></td><td>זיתים וברושים עד קו המים. <strong>החוף היחיד שאפשר לשהות בו בצהרי אוגוסט בלי מטרייה</strong></td></tr>
+      <tr><td><strong>פטאני</strong></td><td>35 ק"מ</td><td>חלוקים וחול</td><td>חינם + בתשלום</td><td>טרסות המסעדות</td><td>שתי מסעדות דגים מעל החוף. חשוף לרוח. שקיעה מהטובות באי</td></tr>
+      <tr><td><strong>קסי</strong></td><td>ליקסורי, 7 ק"מ</td><td>חול גס אדמדם</td><td>הרבה מקום</td><td>מצוק מצל אחרי 18:00</td><td><strong>מסכת בוץ טבעית מהחימר.</strong> כניסה רדודה מאוד, דגל כחול</td></tr>
+      <tr><td><strong>סקאלה</strong></td><td>דרום־מזרח</td><td>חול</td><td>חינם</td><td><strong>אורנים עד החוף</strong></td><td>3–5 ק"מ אורך, <strong>בלי קיפודי ים.</strong> דגל כחול</td></tr>
+      <tr><td><strong>גראדאקיה</strong></td><td>4 ק"מ</td><td>חול רך</td><td>הרבה מקום</td><td>צל אחה"צ מהמצוקים</td><td>הקרוב והנוח לימי קרוז. בלאסי הסמוכה החניה מתמלאת מהר והמטריות יקרות</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <p class="small"><strong>מטריות ושכיבות:</strong> כ-€10–€20 לסט, €25–€30 בלאסי. <span class="w">⚠</span> ברובם בלי ציון שנה. <span class="a">⚠ פלאטיה אמוס — לא להיכנס:</span> מקור אחד מתאר 280 מדרגות בצוק, מקור אחר אומר שהחוף <strong>סגור רשמית</strong>.</p>
+
+  <h2><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-wave"/></svg>פעילויות</h2>
+
+  <div class="card card-alert">
+    <p><strong>מחסום הגיל שקובע הכול: בני 15 לא יכולים לנהוג ATV, קטנוע מעל 50cc או סירה</strong> (סקיפר 18+). <strong>בשילוב עם "לא מתפצלים" — ההורים נוהגים, תמיד</strong>, ולכן ספארי הג'יפ, שמכניס את כל הארבעה לרכב אחד, עדיף על ATV בכל פרמטר. <strong>מה שכן פתוח לבני 15: כל פעילות ימית שאינה נהיגה.</strong></p>
+  </div>
+
+  <div class="scroll">
+  <table>
+    <thead><tr><th>פעילות</th><th>מפעיל · מקום</th><th>טלפון</th><th>גיל</th><th>מחיר</th></tr></thead>
+    <tbody>
+      <tr><td><strong>קוסטירינג</strong> — טיפוס, קפיצות מצוק, גלישת חבלים</td><td>Outdoor Kefalonia, ארגוסטולי</td><td class="tel"><a class="tel" href="tel:+306979987611">+30 6979987611</a></td><td class="w">⚠</td><td>€45 · 4 שעות</td></tr>
+      <tr><td><strong>זיפליין</strong> 190 מ' מעל קניון</td><td>Outdoor Kefalonia</td><td class="tel"><a class="tel" href="tel:+306979987611">+30 6979987611</a></td><td class="w">⚠</td><td>€50</td></tr>
+      <tr><td><strong>ספארי ג'יפ</strong> / ספארי שקיעה וכוכבים</td><td>Outdoor Kefalonia</td><td class="tel"><a class="tel" href="tel:+306979987611">+30 6979987611</a></td><td class="w">⚠</td><td>€80 (6 ש') / €70</td></tr>
+      <tr><td><strong>טרק אתרס–אמידי</strong> + קניוניג + חוף</td><td>Outdoor Kefalonia</td><td class="tel"><a class="tel" href="tel:+306979987611">+30 6979987611</a></td><td class="w">⚠</td><td>€60 · 6–7 שעות · <strong>60% מוצל</strong> · הסעה כלולה · סירה חזרה +€20</td></tr>
+      <tr><td><strong>קיאק ים, טיול יום</strong></td><td>Sea Kayaking Kefalonia · Outdoor Kefalonia</td><td class="tel"><a class="tel" href="tel:+306979987611">+30 6979987611</a></td><td><span class="ok">הנחה לגיל &lt;18</span></td><td>€65–€85 · חציית איתקה €80 · כולל ארוחה והסעה חזרה</td></tr>
+      <tr><td><strong>צלילת היכרות, יומי 14:30</strong></td><td>Aquatic Scuba, אגיה אפימיה</td><td class="tel"><a class="tel" href="tel:+302674062006">+30 26740 62006</a></td><td><span class="ok">מגיל 10</span></td><td><span class="w">⚠ המחיר לא מפורסם — לשאול</span></td></tr>
+      <tr><td><strong>צלילת היכרות</strong> / שנורקלינג מודרך</td><td>Blue Manta, סקאלה</td><td class="tel"><a class="tel" href="tel:+306981449295">+30 6981449295</a></td><td class="w">⚠</td><td>€100 · שתי צלילות €130 · שנורקלינג €35 (מחירון 2026)</td></tr>
+      <tr><td><strong>סירה עצמאית בלי רישיון</strong> (עד 30 כ"ס)</td><td>Private Boats, קאטו קטליוס</td><td class="tel"><a class="tel" href="tel:+306945335598">+30 6945 335 598</a></td><td><strong>סקיפר 18+</strong></td><td><span class="w">⚠</span> מ-€140–€240 ליום + דלק. בלי פיקדון</td></tr>
+      <tr><td><strong>ג'ט סקי · וייקבורד · סקי מים</strong></td><td>Extreme Watersports, אנטיסאמוס</td><td class="tel"><a class="tel" href="tel:+306973165715">+30 697 3165 715</a></td><td class="w">⚠ סתירה: 6+ עם מבוגר מול 18</td><td>ג'ט סקי €45–€110 · שיעור וייקבורד €60 (מחירון 2024)</td></tr>
+      <tr><td><strong>רכיבה על סוסים</strong>, טרקים 17:00–20:00</td><td>Bavarian Stables, קולורטה</td><td class="tel"><a class="tel" href="tel:+306977533203">+30 697 753 3203</a></td><td class="w">⚠</td><td>€40 לשעה · €90 ל-3 שעות · <strong>משקל עד 95 ק"ג</strong></td></tr>
+      <tr><td><strong>מצנח רחיפה</strong> מעל מירטוס ואסוס</td><td>Kefalonian Paragliders</td><td class="tel w">⚠ לא מפורסם</td><td><span class="ok">מגיל 4</span> · עד 110 ק"ג</td><td><span class="w">⚠</span> מ-€180 · ~25 דק' טיסה</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <p class="small"><strong>אתרים בכניסה חופשית או בתשלום קטן:</strong> <strong>מערת מליסאני</strong> — €10, מוזל (6–18) €5, <span class="w">⚠</span> 09:00–18:00, <span class="tel-inline"><a class="tel" href="tel:+302674023302">+30 2674023302</a></span> · <strong>מערת דרוגראטי</strong> — €6, מוזל €3, <span class="tel-inline"><a class="tel" href="tel:+302674022997">+30 2674022997</a></span> · <strong>צבי ים בנמל ארגוסטולי</strong> — חינם, 08:00–11:00, לצפות ממרחק, מין מוגן · <strong>מעבורת לאיתקה</strong> מסאמי — €2.39–€5, 20 דקות, <span class="w">⚠</span> שעות לא אומתו · <strong>הר אינוס</strong>, פארק לאומי — <span class="tel-inline"><a class="tel" href="tel:+302671029258">+30 2671029258</a></span>, <span class="w">⚠</span> מקור אחד טוען שאי אפשר לעלות לפסגה אחר הצהריים.</p>
+
+  <p class="sheetfoot">
+    <span>עמוד 3 מתוך 4 · <span class="w">⚠</span> = דורש אימות טלפוני</span>
+    <span class="u"><a href="https://shlomiblue-claude.github.io/kefalonia-family-report/" rel="noopener noreferrer">https://shlomiblue-claude.github.io/kefalonia-family-report/</a></span>
+  </p>
+</section>
+
+<!-- =============================== עמוד 4 =============================== -->
+<section class="sheet" id="sheet-4">
+
+  <h2><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-fork"/></svg>אוכל</h2>
+
+  <div class="card card-alert">
+    <h3>בלי חזיר — שלוש מלכודות ומנת דגל אחת</h3>
+    <ul class="small">
+      <li><strong>Kreatopita (κρεατόπιτα) — מנת הדגל של האי, והיא מכילה חזיר.</strong> תופיע בכל תפריט, בכל פאניגירי ובסיור האוכל.</li>
+      <li><span class="ok">החלופה: <strong>Bakaliaropita (μπακαλιαρόπιτα)</strong></span> — פאי בקלה מלוח. קפלוניטי מקומי, אותו בצק, בלי הבעיה. <strong>זו התשובה.</strong></li>
+      <li><strong>Gyros ו-Souvlaki בלי ציון = חזיר.</strong> עוף מצוין במפורש: κοτόπουλο. <strong>פנצ'טה, בייקון ו-lountza</strong> בסלטים ובפסטות.</li>
+      <li><span class="w">⚠</span> גם מנות שנשמעות בטוחות, כמו ארנב stifado, עשויות לכלול חזיר בגרסה של בית מסוים. <strong>לשאול תמיד:</strong> Χωρίς χοιρινό, παρακαλώ.</li>
+    </ul>
+  </div>
+
+  <p class="small"><strong>המילה שפותרת את רוב הבעיה — νηστίσιμα, "מנות צום":</strong> קטגוריה שקיימת בכל טברנה יוונית, ללא בשר בהגדרה ורבות ממנה גם ללא חלב. לשאול: <strong>"Έχετε νηστίσιμα;"</strong></p>
+  <p class="small"><strong>צמחוני ובטוח:</strong> riganada <span class="w">⚠</span> (לשאול אם עם גבינת Prentza) · tsigaridia · horta · gigantes · fava · gemista (לוודא בלי בשר) · spanakopita · aginaropita (פאי ארטישוק, קפלוניטי) · tzatziki · saganaki.<br>
+  <strong>דגים:</strong> bakaliaropita · bakaliaros me aliada <span class="w">⚠</span> (הרוטב לא בהכרח צמחוני) · oktapodi krasato · astakomakaronada · kakavia (בהזמנה מראש). <strong>בשר בלי חזיר:</strong> katsiki vrasto (גדי) · kouneli stifado <span class="w">⚠</span> · kokoras krasatos · arni kleftiko · prokado.</p>
+
+  <div class="card card-warn">
+    <p class="small"><strong>אין כשרות בקפלוניה. בכלל</strong> — לא מסעדה, לא קצבייה, לא בית חב"ד ולא השגחה. <strong>החלופה: מוצרים ארוזים עם הכשר אירופי בסופר</strong> — AB Vassilopoulos, Lidl ו-Kritikos, כ-4 ק"מ מארגוסטולי. <strong>לבדוק את הסימון על האריזה עצמה — מוצר שכשר בישראל אינו בהכרח כשר ביוון.</strong></p>
+  </div>
+
+  <h3>טברנות לפי אזור</h3>
+  <div class="scroll">
+  <table>
+    <thead><tr><th style="width:15%">אזור</th><th>מקום</th><th style="width:24%">טלפון</th></tr></thead>
+    <tbody>
+      <tr><td rowspan="2"><strong>ארגוסטולי</strong></td><td>Kiani Akti / Côte d'Azur — דגים על רציף עץ מעל הים</td><td class="tel"><a class="tel" href="tel:+302671026680">+30 2671 026680</a></td></tr>
+      <tr><td>I Palia Plaka — ארנב stifado, sofrito של גדי, חצר</td><td class="tel"><a class="tel" href="tel:+302671024849">+30 2671 024849</a></td></tr>
+      <tr><td rowspan="2"><strong>פיסקרדו</strong><br><span class="a small">הזמנה חובה</span></td><td>Tassia — מאז 1972, ספגטי לובסטר. 17:00–00:00</td><td class="tel"><a class="tel" href="tel:+302674041110">+30 26740 41110</a> / 41205</td></tr>
+      <tr><td>Vasso's — 17:00–23:30</td><td class="tel"><a class="tel" href="tel:+302674041276">+30 2674 041276</a></td></tr>
+      <tr><td><strong>אסוס</strong></td><td>Platanos — הבעלים מגדל את הבקר בעצמו. <span class="a">יש שם גם kreatopita</span></td><td class="tel"><a class="tel" href="tel:+302674051381">+30 2674051381</a></td></tr>
+      <tr><td><strong>אגיה אפימיה</strong></td><td>Paradise Beach Taverna — נוף למפרץ, 11:00–01:00</td><td class="tel"><a class="tel" href="tel:+302674061392">+30 26740 61392</a></td></tr>
+      <tr><td><strong>זולה / אגיה קיריאקי</strong></td><td>I Kalyva Tou Psara — דגים על הגריל, <strong>kakavia בהזמנה מראש</strong></td><td class="tel"><a class="tel" href="tel:+302671085105">+30 2671085105</a></td></tr>
+      <tr><td rowspan="2"><strong>כפרים פנימיים</strong></td><td>Makis, ווסיליקאדס — משפחתית 40 שנה, tsigaridia</td><td class="tel"><a class="tel" href="tel:+302674051556">+30 2674 051556</a></td></tr>
+      <tr><td>Hersonas, טרויאנטה — גריל, ירקות משלהם. <span class="a">לוודא נקניקיות</span></td><td class="tel"><a class="tel" href="tel:+306933492571">+30 693 349 2571</a></td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h3>יקבים</h3>
+  <ul class="small">
+    <li><strong>Petrakopoulos, תירמונה</strong> — <span class="tel-inline"><a class="tel" href="tel:+302671029716">+30 2671029716</a></span>, ראשון–שבת <strong>11:00–20:00</strong>. סיור מלא €26 · טעימה 3 יינות €25 (מחירון 2026). <strong>היקב היחיד שפתוח עד 20:00.</strong></li>
+    <li><strong>Gentilini, מיניס</strong> (ליד שדה התעופה) — <span class="tel-inline"><a class="tel" href="tel:+302671041618">+30 26710 41618</a></span>, יומי 11:00–20:00, <span class="w">⚠</span> בלי מחיר · <strong>קואופרטיב הרובולה, פרנגטה</strong> — <span class="tel-inline">26710 86301</span>, <span class="w">⚠ סתירה: ימי חול 09:00–15:00 מול שבעה ימים 09:00–20:00, וטעימה חינם מול מ-€11.</span></li>
+    <li><span class="w">⚠</span> <strong>אף יקב באי לא מפרסם מדיניות גיל לקטינים.</strong> שיחה אחת, שתי שאלות: האם בני 15 מצטרפים לסיור, ומה יש להם לשתות.</li>
+  </ul>
+
+  <h3>שווקים ושופינג</h3>
+  <ul class="small">
+    <li><strong>שוק ארגוסטולי — רחוב Antoni Tritsi, על הכביש החופי.</strong> <span class="w">⚠ יום השוק הרשמי לא נמצא באף מקור;</span> מה שידוע הוא ש<strong>שבת בבוקר היא היום החזק</strong> — ויש לכם שבת אחת, 22/8. <strong>שוק הדגים Rassias</strong>, Antoni Tritsi 10, <span class="w">⚠</span> שבת 07:00–15:00, מתעורר סביב 11:00. לאמת בקבלה ביום ההגעה.</li>
+    <li><strong>ליתוסטרוטו</strong> — 800 מטר של רחוב הולכי רגל בשיש לבן: תכשיטים, קרמיקה, פשתן, רקמה ומלאכת עץ. <strong>שתי חנויות הממתקים ההיסטוריות</strong> <span class="w">⚠</span>: <strong>Mavroeidis</strong> (ליתוסטרוטו 16, מ-1918) ו-<strong>Voskopoula</strong> (ליתוסטרוטו 3, מ-1910).</li>
+    <li><strong>להביא הביתה:</strong> שמן זית PDO · <strong>דבש אשוח</strong> מהאשוח האנדמי של הר אינוס, שלא קיים בשום מקום אחר · <strong>mandoles</strong> · גבינת <strong>Prentza</strong> · יין רובולה.</li>
+  </ul>
+
+  <p class="sheetfoot">
+    <span><svg class="ico ico-sm" aria-hidden="true" focusable="false"><use href="#i-warn"/></svg>עמוד 4 מתוך 4 · <span class="w">⚠</span> = סתירה בין מקורות או פריט שלא אומת. דורש אימות טלפוני, והפירוט המלא בדוח המורחב</span>
+    <span class="u"><a href="https://shlomiblue-claude.github.io/kefalonia-family-report/" rel="noopener noreferrer">https://shlomiblue-claude.github.io/kefalonia-family-report/</a></span>
+  </p>
+</section>
+</main>
+
+</body>
+</html>
